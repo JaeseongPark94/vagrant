@@ -8,11 +8,9 @@
 
 * [Vagrant](https://releases.hashicorp.com/vagrant/?_ga=2.237010176.1475687836.1513147132-756484628.1513147132) : 1.9.5
 
-![vagrant](./2.png)
+![vagrant](./2.png)![git](./3.png)
 
 * [git for windows](https://git-for-windows.github.io/) - git bash
-
-![git](./3.png)
 
 - *모든 설치는 default로*
 - atom이나 sublime과 같은 text-editor도 설치하기
