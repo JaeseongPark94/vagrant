@@ -1,5 +1,6 @@
 # windows를 탈출하자! (vagrant 설치)
 * mac사용자의 경우 [이곳](https://gorails.com/setup/osx/10.13-high-sierra) 참조
+
 ## versions / install
 
 * [virtualBox](https://download.virtualbox.org/virtualbox/5.1.30/) : 5.1.30
@@ -56,7 +57,7 @@ $ cd /vagrant
 
 ## setting - vagrant 내 루비 개발 환경
 
-> 루비버전은 2.3.5로 맞춘다.
+> 루비버전은 2.4.0으로 맞춘다.
 
 **아래의 코드들은 반드시 가상 환경 내에서 입력해야합니다.**
 git bash 창에서 `ubuntu@ubuntu-xenial:~$` 확인!
@@ -105,8 +106,8 @@ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 exec $SHELL
 
-rbenv install 2.3.5
-rbenv global 2.3.5
+rbenv install 2.4.0
+rbenv global 2.4.0
 ruby -v
 ```
 
@@ -123,4 +124,18 @@ rbenv rehash
 ```console
 git config --global user.name "YOUR NAME"
 git config --global user.email "YOUR@EMAIL.com"
+```
+
+4. 레일즈 설치하기!
+```console
+gem install rails -v 5.0.6
+rbenv rehash
+```
+
+5. 버전 확인하기
+```console
+ruby -v 
+# 2.4.0
+rails -v 
+# 5.0.6
 ```
