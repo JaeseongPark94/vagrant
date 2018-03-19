@@ -1,6 +1,6 @@
-#windows를 탈출하자! (vagrant 설치)
-
-##versions / install
+# windows를 탈출하자! (vagrant 설치)
+* mac사용자의 경우 [이곳](https://gorails.com/setup/osx/10.13-high-sierra) 참조
+## versions / install
 
 * [virtualBox](https://download.virtualbox.org/virtualbox/5.1.30/) : 5.1.30
 
